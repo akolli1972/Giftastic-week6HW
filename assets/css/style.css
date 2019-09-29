@@ -1,0 +1,45 @@
+#header {
+	background-color: purple;
+	color: yellow;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 15px;
+    font-family: "Carrois Gothic SC", sans-serif;
+    font-style: italic;
+}
+
+
+
+
+#topics {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+    margin-bottom: 5px;
+    color: yellow;
+    
+}
+
+#theSearch {
+	margin: 0 auto;
+	text-align: center;
+    color: green;
+    font-size: 30px;
+}
+
+#gifBox {
+	clear: both;
+	display: inline;
+	flex-wrap: wrap;
+}
+
+._Giphy {
+	padding: 2px;
+	width: 80%;
+}
+.container {
+    background-color:burlywood;
+}
+#theButtons{
+    color: green;
+}
