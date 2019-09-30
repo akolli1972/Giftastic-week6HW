@@ -1,5 +1,5 @@
 # Giftastic-week6HW
-    Gifstastic assignment is all about using javascript code to retrieve data from giphy on topics of interest. 
+    Gifstastic assignment is  about using javascript code to retrieve data from giphy on topics of interest. 
 ## Process behind the application
 In this assignment, i first created an HTML page with the following keywords:
    *'header'

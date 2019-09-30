@@ -16,7 +16,8 @@ $(document).ready(function() {
         $.ajax({
               url: queryURL,
               method: "GET"
-            }).done(function(response) {
+            })
+            .done(function(response) {
                 var results = response.data;
                 console.log(results);
                 for (var i = 0; i < results.length; i++) {
@@ -74,7 +75,7 @@ $(document).ready(function() {
       //Click event on gifs with class of "_Giphy" executes pausePlayGifs function
       $(document).on("click", "._Giphy", pausePlayGifs);
     
-      //Function accesses "data-state" attribute and depending on status, changes image source to "data-animate" or "data-still"
+      //Changing attribute to "still" or "animate"
       function pausePlayGifs() {
            var state = $(this).attr("data-state");
           if (state === "still") {
